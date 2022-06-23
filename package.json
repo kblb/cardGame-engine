@@ -1,0 +1,20 @@
+{
+  "name": "com.kblb.cardGameEngine",
+  "version": "0.0.1",
+  "displayName": "KBLB Card Game Engine",
+  "description": "This is the engine for card game by KBLB loosely based on Slay The Spire",
+  "unity": "2022.1",
+  "unityRelease": "5f1",
+  "dependencies": {
+ },
+ "keywords": [
+    "slay the spire",
+    "card game",
+    "game",
+	"engine"
+  ],
+  "author": {
+    "name": "KBLB",
+    "url": "https://github.com/kblb.github.io"
+  }
+}
