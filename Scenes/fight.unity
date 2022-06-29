@@ -282,7 +282,6 @@ GameObject:
   m_Component:
   - component: {fileID: 409670926}
   - component: {fileID: 409670925}
-  - component: {fileID: 409670924}
   - component: {fileID: 409670927}
   m_Layer: 8
   m_Name: ui camera
@@ -291,14 +290,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &409670924
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409670923}
-  m_Enabled: 1
 --- !u!20 &409670925
 Camera:
   m_ObjectHideFlags: 0
@@ -1345,7 +1336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2144038176965657729, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
       propertyPath: m_Color.a
-      value: 0.003921569
+      value: 0.22745098
       objectReference: {fileID: 0}
     - target: {fileID: 2144038176965657732, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
       propertyPath: m_Layer
@@ -1465,7 +1456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2144038177951162943, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
       propertyPath: m_Color.a
-      value: 0.003921569
+      value: 0.23921569
       objectReference: {fileID: 0}
     - target: {fileID: 9159556716564484259, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
       propertyPath: m_Layer

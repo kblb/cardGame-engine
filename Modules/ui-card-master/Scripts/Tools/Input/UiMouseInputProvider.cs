@@ -56,13 +56,6 @@ namespace Tools.UI
 
         #region Unity Callbacks
 
-        void Awake()
-        {
-            // Currently using PhysicsRaycaster, but can be also considered PhysicsRaycaster2D.
-            if (Camera.main.GetComponent<PhysicsRaycaster>() == null)
-                throw new Exception(GetType() + " needs an " + typeof(PhysicsRaycaster) + " on the MainCamera");
-        }
-
         #endregion
 
         //----------------------------------------------------------------------------------------------------------
