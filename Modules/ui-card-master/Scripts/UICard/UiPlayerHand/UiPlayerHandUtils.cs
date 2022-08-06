@@ -27,24 +27,6 @@ namespace Tools.UI.Card
 
         #endregion
 
-        //--------------------------------------------------------------------------------------------------------------
-
-        #region Unitycallbacks
-
-        IEnumerator Start()
-        {
-            //starting cards
-            for (var i = 0; i < 5; i++)
-            {
-                yield return new WaitForSeconds(0.2f);
-                DrawCard();
-            }
-        }
-
-        #endregion
-
-        //--------------------------------------------------------------------------------------------------------------
-
         #region Operations
 
         [Button]

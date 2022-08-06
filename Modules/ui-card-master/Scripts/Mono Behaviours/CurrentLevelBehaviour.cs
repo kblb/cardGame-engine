@@ -1,4 +1,6 @@
-﻿using Extensions;
+﻿using System.Collections;
+using System.Collections.Generic;
+using Extensions;
 using Tools.UI.Card;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -22,6 +24,16 @@ public class CurrentLevelBehaviour : MonoBehaviour
 	[Tooltip("Game view transform")]
 	Transform gameView;
 
+	IEnumerator Start()
+	{
+		//starting cards
+		for (var i = 0; i < 5; i++)
+		{
+			yield return new WaitForSeconds(0.2f);
+			DrawCard();
+		}
+	}
+	
 	[Button]
 	public void DrawCard()
 	{
