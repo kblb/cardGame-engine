@@ -22,15 +22,14 @@ namespace Tools.UI.Card
         [SerializeField] [Tooltip("Game view transform")]
         Transform gameView;
 
-        IUiPlayerHand PlayerHand { get; set; }
+        [SerializeReference]
+        UiPlayerHand PlayerHand;
 
         #endregion
 
         //--------------------------------------------------------------------------------------------------------------
 
         #region Unitycallbacks
-
-        void Awake() => PlayerHand = transform.parent.GetComponentInChildren<IUiPlayerHand>();
 
         IEnumerator Start()
         {
