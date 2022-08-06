@@ -217,6 +217,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ae93032ebb456b898c2aa5932e3017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerHand: {fileID: 1633710711}
+  cardPrefabCs: {fileID: 3245573509686006908, guid: da89c93580533da4abe22dd655a7d0ca, type: 3}
+  deckPosition: {fileID: 1773805241}
+  gameView: {fileID: 668910735}
 --- !u!4 &88832347
 Transform:
   m_ObjectHideFlags: 0
@@ -1162,6 +1166,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe4e6242e55c49f4196ccec629c5b6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1773805241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2144038176792078898, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
+  m_PrefabInstance: {fileID: 2144038177204827270}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1798136950
 GameObject:
   m_ObjectHideFlags: 0
