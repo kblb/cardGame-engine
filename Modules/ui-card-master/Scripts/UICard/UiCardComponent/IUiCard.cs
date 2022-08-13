@@ -7,10 +7,8 @@ namespace Tools.UI.Card
     /// </summary>
     public interface IUiCard : IStateMachineHandler, IUiCardComponents, IUiCardTransform
     {
-        IUiPlayerHand Hand { get; }
         bool IsDragging { get; }
         bool IsHovering { get; }
-        bool IsDisabled { get; }
         bool IsPlayer { get; }
         void Disable();
         void Enable();

@@ -51,7 +51,6 @@ namespace Tools.UI.Card
         Collider IUiCardComponents.Collider => MyCollider;
         Rigidbody IUiCardComponents.Rigidbody => MyRigidbody;
         IMouseInput IUiCardComponents.Input => MyInput;
-        IUiPlayerHand IUiCard.Hand => Hand;
 
         #endregion
 
